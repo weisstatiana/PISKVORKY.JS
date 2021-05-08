@@ -15,7 +15,7 @@ document.querySelectorAll('.policko').forEach((btn) => {
     }
     if (isWinningMove(btn)) {
       setTimeout(() => {
-        if (kdoJenaTahu === 'cross') {
+        if (kdoJeNaTahu === 'cross') {
           confirm('Koliesko vyhrává! Spustiť novú hru?');
           location.reload();
         } else {
